@@ -79,7 +79,7 @@ Ability to detect all spam emails.
 
 Balance between precision and recall.
 
-### Team Contributions and Future Goals
+### Contributions and Future Goals:
 
 #### Core Functionality: 
 
