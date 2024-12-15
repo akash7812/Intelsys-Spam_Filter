@@ -44,7 +44,7 @@ To know more about Naive Bayes classification, Hey curious minds., I have attach
 [8] After all, We can try other ML models like SVM, Logistic Regression, Decision Trees and more… to build the email classification model.
 
 ## MODEL SUBMISSION DEADLINE:
-Everyone of us should complete the Naive Bayes ML model for Spam Filteration before the start of January!!
+Everyone of us should complete the Naive Bayes ML model for Spam Filteration before the end of December(31.12.2024)
 
 Trying and implementing the other ML models like Logistic Regression, SVM(Support Vector Machines), Decisioin Trees and more, is at your own curiosity and knowledge purpose. If done, it is very appreciated!!
 
@@ -53,9 +53,9 @@ Everyone should fork this repository and can start working on your Initial Machi
 
 Then add your used codes as files and the explanation of how the model works, any special features, in this Repository. 
 
-On January you have to explain the working of your Model and about any special features you have added!!
+* On January you have to explain the working of your Model and about any special features you have added!!
 
 ## NEXT BIG PLAN:
-After the completion and submission of the initial model, We are gonna jump into a bigger Idea💡 of Implementing the Spam Detection in wide platforms like Instagram, Gmail and Reddit.
+After the completion and submission of the initial model, We are gonna jump into a bigger Idea of Implementing the Spam Detection in wide platforms like Instagram, Gmail and Reddit as a Team.
 
 We are going to develop it as a Mobile App which would run over those apps and provide live detection on Spam messages and comments and warns the Users...
