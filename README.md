@@ -1,94 +1,34 @@
-# Spam Filter
-
+# SPAM FILTER:
 ## Project Overview:
+Spams are everywhere in the world. As fast as the Technology develops, Spammers find for Loopholes and exploit the Technology. 
+This project mainly focuses on filtering the Spams in various platforms in this world of Technology.
+## Main Idea:
+The Main Idea of our project is to make it as a versatile platform to filter out the Spam in various platforms like Instagram, Gmail, Reddit and more...
+## Project Workflow:
+### FIRST STEP:
+To build a ML model using Naive Bayes to implement Spam/Ham detection in email texts.
+#### Purpose of this..
+Building a ML model for filtering out the Spam emails helps you build a Basic knowledge on how a ML model works, how it is trained and how it predicts the answers.
+This basic knowledge is important for us to move through the other Advanced Models and Platforms.
+#### Why Naive Bayes?
+Naive Bayes ML model is very efficient in Filtering out the messages as Spam/Ham and it is way easier to implement.
 
-This project focuses on developing a machine learning-based spam email classifier to filter unwanted emails effectively. Using labeled datasets and state-of-the-art algorithms, our aim is to differentiate between spam and ham (non-spam) emails with high accuracy.
+#### How it works?👇
+For example, let us consider the text, "Win a free iPhone"
+The Naive Bayes classifier, checks each word's probability of it in spam or ham in the DataSet. Finally, it multiplies all the words probabilities to find the total probability of the sentence for SPAM and HAM respectively. If the Spam probability is high, then it is classified as a Spam email and vice versa...
 
-The classifier will process email text, extract relevant features, and make predictions. This project is a stepping stone to understanding text classification and the practical applications of machine learning in combating spam.
+To know more about Naive Bayes classification, Hey curious minds., I have attached a YouTube Video link below. Don't miss to check it out!
+👇👇👇
+https://youtu.be/O2L2Uv9pdDA?si=C-7z0HT8ZLV4eA1E
 
-## Procedure and Enhancements:
-
-### Understand the Problem Statement:
-
-Analyze how spam emails are identified.
-Explore real-world applications of spam filtering (e.g., Gmail, Outlook).
-
-### Set Up the Environment:
-
-Install Python and required libraries (Scikit-learn, Pandas, Numpy, etc.).
-Use Jupyter Notebook for experimentation.
-
-### Prepare the Dataset:
-
-Review the provided dataset with 'spam' and 'ham' labels.
-Explore additional datasets if required for better generalization.
-
-### Feature Extraction:
-
-Use techniques like Bag-of-Words (BoW) or TF-IDF to convert email text into numerical features.
-
-### Model Selection and Training:
-
-Implement basic models like Naive Bayes, Logistic Regression, and Decision Trees to compare performance.
-Optimize hyperparameters for better accuracy.
-
-### Testing and Validation:
-
-Split the dataset into training and testing sets.
-Use metrics like accuracy, precision, recall, and F1-score to evaluate the model.
-
-### Deployment and Extensions:
-
-Build a user-friendly interface or script to classify new emails.
-Experiment with more advanced techniques like ensemble methods or deep learning.
-Key Components
-
-### Dataset:
-The dataset contains labeled emails with two categories: 'spam' and 'ham.'
-Features include email text, which needs preprocessing (e.g., removing stopwords, stemming, etc.).
-
-### Machine Learning Models:
-
-#### Naive Bayes: 
-
-Great for text classification with fast training.
-
-#### Logistic Regression: 
-
-Interpretable and effective for binary classification.
-
-#### Advanced Models: 
-
-Explore ensemble techniques like Random Forest or Gradient Boosting.
-
-### Evaluation Metrics:
-
-#### Accuracy: 
-
-Overall performance.
-
-#### Precision: 
-
-Spam email detection accuracy.
-
-#### Recall: 
-
-Ability to detect all spam emails.
-
-#### F1-Score: 
-
-Balance between precision and recall.
-
-### Contributions and Future Goals:
-
-#### Core Functionality: 
-
-Build a robust classifier to identify spam with high accuracy.
-
-#### Enhancements: 
-
-Add features like sender reputation analysis, phishing detection, or clustering for unsupervised analysis.
-
-#### Long-term Vision: 
-
-Extend the project for use in real-time spam filtering or integrate it with an email platform.
+#### A short guide to develop the Naive Bayes ML model for Spam detection:
+[1] Let’s start by using the Naïve Bayes ML model – due to its efficiency and easier implementation.
+[2] Get a sample Data-Set for (Spam/Ham) emails - It will be available in the following link;
+<https://www.kaggle.com/datasets> We can search for spam emails dataset here. A Sample Dataset is shared in WhatsApp group too.
+[3] Load the dataset and train the model.
+[4] Check for its accuracy
+[5] Print the Accuracy score, Confusion Matrix and Classification report.
+[6] Then, provide any spam/ham email text as input to the model to check its functioning.
+[7] Finally, create a simple User Interface - We Can use Streamlit, (HTML & CSS), Gradio and there are more to explore. In this, Tools like Streamlit and Gradio are in-built python Frameworks to develop Front-end.
+[8] After all, We can try other ML models like SVM, Logistic Regression, Decision Trees and more… to build the email classification model.
+![image](https://github.com/user-attachments/assets/e407160e-ffdd-4acd-a415-5c2bc2b0e377)
