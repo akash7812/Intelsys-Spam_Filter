@@ -1,17 +1,13 @@
 # SPAM FILTER:
 ## PROJECT OVERVIEW:
-Spams are everywhere around the world. As fast as the Technology develops, Spammers find for Loopholes and misuse the Technology. 
-This project mainly focuses on filtering the Spams in various platforms in this world of Technology.
-
-## Main Idea:
-The Main Idea of our project is to make it as a versatile project to filter out the Spam in various platforms like Instagram, Gmail, Reddit and more...
+"Spam is a pervasive issue worldwide. As technology advances, spammers continuously exploit loopholes to misuse it. Our goal is to develop a solution that filters spam content and proactively warns users to ensure a safer digital experience."
 
 # PROJECT WORKFLOW:
 ## STARTING PLAN:
-To build a ML model using Naive Bayes to implement Spam/Ham detection in email texts.
+To build a Machine Learning model using Naive Bayes to implement Spam/Ham detection in email texts.
 
 ### Purpose of this Model development:
-Building a ML model for filtering out the Spam emails helps you build a Basic knowledge on how a ML model works, how it is trained and how it predicts the answers.
+Building a Machine Learning model for filtering out the Spam emails helps you build a Basic knowledge on how that model works, how it is trained and how it predicts the answers.
 This basic knowledge is important for us to move through the other Advanced Models and Platforms.
 
 ### Why Naive Bayes?👇
@@ -50,16 +46,16 @@ To know more about Naive Bayes classification, Hey curious minds., I have attach
 ## MODEL SUBMISSION DEADLINE:
 Everyone of us should complete the Naive Bayes ML model for Spam Filteration before the start of January!!
 
-Trying and implementing the other ML models like Logistic Regression, SVM(Support Vector Machines), Decisioin Trees and more, is at your own curiosity and knowledge purpose. If done, it is very appreciated.
+Trying and implementing the other ML models like Logistic Regression, SVM(Support Vector Machines), Decisioin Trees and more, is at your own curiosity and knowledge purpose. If done, it is very appreciated!!
 
 ### FORK THIS REPOSITORY:
-Everyone should fork this repository and can start working on your Initial ML model at your free time. 
+Everyone should fork this repository and can start working on your Initial Machine Learning model at your free time. 
 
-Then add your used codes as files and the explanation of how the model works, any special features etc. in this Repository. 
+Then add your used codes as files and the explanation of how the model works, any special features, in this Repository. 
 
-On January you have to explain the working of your project and about any special features you have added!!
+On January you have to explain the working of your Model and about any special features you have added!!
 
 ## NEXT BIG PLAN:
-After the completion and submission of the initial model., We are gonna jump into a bigger Idea💡 of Implementing the Spam Detection in wide platforms like Instagram, Gmail and Reddit.
+After the completion and submission of the initial model, We are gonna jump into a bigger Idea💡 of Implementing the Spam Detection in wide platforms like Instagram, Gmail and Reddit.
 
-We are going to develop it as a Mobile App which would run over those apps and provide live detection on Spam messages and comments...
+We are going to develop it as a Mobile App which would run over those apps and provide live detection on Spam messages and comments and warns the Users...
