@@ -16,6 +16,8 @@ Naive Bayes ML model is very efficient in Filtering out the messages as Spam/Ham
 ### How it works?👇
 For example, let us consider the text, "Win a free iPhone"
 
+"Win" + "free" + "iPhone"
+
 The Naive Bayes classifier, checks each word's probability of it in spam or ham in the DataSet. Finally, it multiplies each word's probabilities to find the total probability of the sentence for SPAM and HAM respectively. If the Spam probability is high, then it is classified as a Spam email and vice versa...
 
 To know more about Naive Bayes classification, Hey curious minds., I have attached a YouTube Video link below. Don't miss to check it out!
@@ -46,12 +48,12 @@ To know more about Naive Bayes classification, Hey curious minds., I have attach
 ## MODEL SUBMISSION DEADLINE:
 Everyone of us should complete the Naive Bayes ML model for Spam Filteration before the end of December(31.12.2024)
 
-Trying and implementing the other ML models like Logistic Regression, SVM(Support Vector Machines), Decisioin Trees and more, is at your own curiosity and knowledge purpose. If done, it is very appreciated!!
+Trying and implementing the other Machine Learning models like Logistic Regression, SVM(Support Vector Machines), Decisioin Trees and more, is at your own curiosity and knowledge purpose. If done, it is very appreciated!!
 
 ### FORK THIS REPOSITORY:
-Everyone should fork this repository and can start working on your Initial Machine Learning model at your free time. 
+* Everyone should fork this repository and can start working on your Initial Machine Learning model at your free time. 
 
-Then add your used codes as files and the explanation of how the model works, any special features, in this Repository. 
+* Firstly, clear the contents in this Repository and then add your used codes as files and the explanation of how the model works, any special features etc. 
 
 * On January you have to explain the working of your Model and about any special features you have added!!
 
@@ -59,3 +61,6 @@ Then add your used codes as files and the explanation of how the model works, an
 After the completion and submission of the initial model, We are gonna jump into a bigger Idea of Implementing the Spam Detection in wide platforms like Instagram, Gmail and Reddit as a Team.
 
 We are going to develop it as a Mobile App which would run over those apps and provide live detection on Spam messages and comments and warns the Users...
+
+## WELCOMING NEW IDEAS:
+* Feel free to share any suggestion or any new Ideas to develop this project in our Spam Filter group👍
