@@ -19,21 +19,25 @@ Naive Bayes ML model is very efficient in Filtering out the messages as Spam/Ham
 
 #### How it works?👇
 For example, let us consider the text, "Win a free iPhone"
+
 The Naive Bayes classifier, checks each word's probability of it in spam or ham in the DataSet. Finally, it multiplies each word's probabilities to find the total probability of the sentence for SPAM and HAM respectively. If the Spam probability is high, then it is classified as a Spam email and vice versa...
 
 To know more about Naive Bayes classification, Hey curious minds., I have attached a YouTube Video link below. Don't miss to check it out!
+
 👇👇👇
+
 <https://youtu.be/O2L2Uv9pdDA?si=C-7z0HT8ZLV4eA1E>
 
 ### A short guide to develop the Naive Bayes ML model for Spam detection:
 [1] Let’s start by using the Naïve Bayes ML model – due to its efficiency and easier implementation.
 
 [2] Get a sample Data-Set for (Spam/Ham) emails - It will be available in the following link;
-<https://www.kaggle.com/datasets> We can search for spam emails dataset here. A Sample Dataset is shared in WhatsApp group too.
+
+<https://www.kaggle.com/datasets> We can search for spam emails dataset here (A Sample Dataset is shared in WhatsApp group too)
 
 [3] Load the dataset and train the model.
 
-[4] Check for its accuracy
+[4] Check for its accuracy.
 
 [5] Print the Accuracy score, Confusion Matrix and Classification report.
 
@@ -45,10 +49,15 @@ To know more about Naive Bayes classification, Hey curious minds., I have attach
 
 ## MODEL SUBMISSION DEADLINE:
 Everyone of us should complete the Naive Bayes ML model for Spam Filteration before the start of January!!
+
 Trying and implementing the other ML models like Logistic Regression, SVM(Support Vector Machines), Decisioin Trees and more, is at your own curiosity and knowledge purpose. If done, it is very appreciated. If not, No problem👍🏼
 
 ### FORK THIS REPOSITORY:
-Everyone should fork this repository and can start working on your Initial ML model at your free time. Then add your used codes as files and the explanation of how the model works, any special features etc. in this Repository. On January you have to explain the working of your project and about any special features you have added.
+Everyone should fork this repository and can start working on your Initial ML model at your free time. 
+
+Then add your used codes as files and the explanation of how the model works, any special features etc. in this Repository. 
+
+On January you have to explain the working of your project and about any special features you have added!!
 
 ## NEXT BIG PLAN:
 After the completion and submission of the initial model., We are gonna jump into a bigger Idea💡 of Implementing the Spam Detection in wide platforms like Instagram, Gmail and Reddit.
