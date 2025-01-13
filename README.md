@@ -9,7 +9,7 @@
 (mention which ML algorithm you have used to do this model. Eg: Naive Bayes)
 (include how the model basically works)
 
-# Technology used for Building the Front-end:
+# TECHNOLOGY USED FOR BUILDING THE FRONT-END:
 (mention what technology you used to build the front-end for this model)
 (include a short description about the technology)
 
