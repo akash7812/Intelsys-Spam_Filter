@@ -1,6 +1,6 @@
 # SPAM FILTER:
 ## PROJECT OVERVIEW:
-"Spam is a pervasive issue worldwide. As technology advances, spammers continuously exploit loopholes to misuse it. Our goal is to develop a solution that filters spam content and proactively warns users to ensure a safer digital experience."
+"Spam is a spreading issue worldwide. As technology advances, spammers continuously exploit loopholes to misuse it. Our goal is to develop a solution that filters spam content and proactively warns users to ensure a safer digital experience."
 
 # PROJECT WORKFLOW:
 ## STARTING PLAN:
@@ -45,15 +45,10 @@ To know more about Naive Bayes classification, Hey curious minds., I have attach
 
 [8] After all, We can try other ML models like SVM, Logistic Regression, Decision Trees and more… to build the email classification model.
 
-## MODEL SUBMISSION DEADLINE:
-Everyone of us should complete the Naive Bayes ML model for Spam Filteration before the end of December(31.12.2024)
-
-Trying and implementing the other Machine Learning models like Logistic Regression, SVM(Support Vector Machines), Decisioin Trees and more, is at your own curiosity and knowledge purpose. If done, it is very appreciated!!
-
 ### FORK THIS REPOSITORY:
 * Everyone should fork this repository and can start working on your Initial Machine Learning model at your free time. 
 
-* Firstly, clear the contents in this Repository and then add your used codes as files and the explanation of how the model works, any special features etc. 
+* Add your used codes as files and the explanation of how the model works, any special features etc in this Repository.
 
 * On January you have to explain the working of your Model and about any special features you have added!!
 
