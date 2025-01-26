@@ -264,9 +264,9 @@ body {
 ```
 
 # OUTPUT:
-![output](../interface.png)
-![output](../ham.png)
-![output](../spam.png)
+![output](interface.png)
+![output](ham.png)
+![output](spam.png)
 
 # RESULT:
 The spam filter classifies messages as Spam or Ham based on keywords like "offer" or "win." If the message contains these, it’s flagged as Spam; otherwise, it's Ham. The model’s accuracy is shown as 95%.
