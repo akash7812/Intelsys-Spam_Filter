@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spam Filter Interface</title>
+  <link rel="stylesheet" href=static/style.css"> 
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+  <div class="background">
+    <!-- Background image will be styled in CSS -->
+  </div>
+
+  <div class="container">
+    <h1 class="title">Spam Filter</h1>
+    <p class="subtitle">Enter your message below to classify it as Spam or Ham!</p>
+    
+    <!-- Input form -->
+    <textarea id="messageInput" class="message-input" placeholder="Type your message here..."></textarea>
+    
+    <!-- Classify button -->
+    <button class="classify-button" onclick="classifyMessage()">Classify Message</button>
+    
+    <!-- Prediction result -->
+    <div id="result" class="result" style="display: none;">
+      <h2 class="result-text"></h2>
+    </div>
+    
+    <!-- Model accuracy -->
+    <div class="accuracy">
+      Model Accuracy: <strong>95%</strong>
+    </div>
+  </div>
+
+  <script>
+    function classifyMessage() {
+      const message = document.getElementById('messageInput').value.trim();
+      const resultDiv = document.getElementById('result');
+      const resultText = document.querySelector('.result-text');
+
+      // Example logic for prediction (replace with your model's actual output)
+      if (message === "") {
+        resultDiv.style.display = "block";
+        resultText.innerHTML = "⚠️ Please enter a message to classify.";
+        resultText.style.color = "#fdd835";
+        return;
+      }
+
+      const isSpam = message.toLowerCase().includes("offer") || message.toLowerCase().includes("win");
+      if (isSpam) {
+        resultText.innerHTML = "🔴 This message is classified as <strong>Spam</strong>. Avoid engaging with it!";
+        resultText.style.color = "#e53935"; // Red for Spam
+      } else {
+        resultText.innerHTML = "🟢 This message is classified as <strong>Ham</strong>. It seems safe!";
+        resultText.style.color = "#43a047"; // Green for Ham
+      }
+
+      resultDiv.style.display = "block";
+    }
+  </script>
+</body>
+</html>
